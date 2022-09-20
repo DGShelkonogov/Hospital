@@ -63,3 +63,5 @@ C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\Doct
 C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\DoctorHomePage.baml
 C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\DoctorRecordPage.g.cs
 C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\DoctorRecordPage.baml
+C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\DrugAndMedicalServicePage.g.cs
+C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\DrugAndMedicalServicePage.baml

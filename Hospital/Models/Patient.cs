@@ -16,6 +16,7 @@ namespace Hospital.Models
         public User User { get; set; }
 
         public virtual ICollection<MedicalService> MedicalServices { get; set; } = new List<MedicalService>();
+        public virtual ICollection<Drug> Drugs { get; set; } = new List<Drug>();
 
         public event PropertyChangedEventHandler? PropertyChanged;
     }

@@ -72,6 +72,8 @@ namespace Hospital.Pages
                     .FirstOrDefault(x => x.User.Login == user.Login && x.User.Password == user.Password);
                 var patient = db.Patients
                     .Include(x => x.User)
+                    .Include(x => x.Drugs)
+                    .Include(x => x.MedicalServices)
                     .FirstOrDefault(x => x.User.Login == user.Login && x.User.Password == user.Password);
 
                 if (doctor != null)

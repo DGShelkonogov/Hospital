@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\dana\source\repos\Hospital\Hospital\App.xaml
-14502643060
+15-1845387509
 
-30-2021755167
+311149460854
 2101828495309
-AdminMainWindow.xaml;DoctorMainWindow.xaml;Pages\DoctorHomePage.xaml;Pages\DoctorPage.xaml;Pages\DoctorRecordPage.xaml;Pages\DoctorTypePage.xaml;Pages\DrugPage.xaml;Pages\LoginPage.xaml;Pages\MedicalServicePage.xaml;Pages\PatientHomePage.xaml;Pages\RecordPage.xaml;Pages\RegisterPage.xaml;PatientMainWindow.xaml;StartWindow.xaml;
+AdminMainWindow.xaml;DoctorMainWindow.xaml;Pages\DoctorHomePage.xaml;Pages\DoctorPage.xaml;Pages\DoctorRecordPage.xaml;Pages\DoctorTypePage.xaml;Pages\DrugAndMedicalServicePage.xaml;Pages\DrugPage.xaml;Pages\LoginPage.xaml;Pages\MedicalServicePage.xaml;Pages\PatientHomePage.xaml;Pages\RecordPage.xaml;Pages\RegisterPage.xaml;PatientMainWindow.xaml;StartWindow.xaml;
 
 True
 
