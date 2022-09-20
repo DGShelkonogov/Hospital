@@ -8,6 +8,9 @@
         Title="PatientMainWindow" Height="450" Width="800">
     <Grid>
         <TabControl>
+            <TabItem Header="Домашняя страница">
+                <Frame Source="Pages/PatientHomePage.xaml"/>
+            </TabItem>
             <TabItem Header="Мои записи">
                 <Frame Source="Pages/RecordPage.xaml"/>
             </TabItem>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hospital.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,11 @@ namespace Hospital
     /// </summary>
     public partial class DoctorMainWindow : Window
     {
-        public DoctorMainWindow()
+        public static Doctor Doctor{ get; set; }
+        public DoctorMainWindow(Doctor doctor)
         {
             InitializeComponent();
+            Doctor = doctor;
         }
     }
 }

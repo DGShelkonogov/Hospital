@@ -54,14 +54,20 @@ namespace Hospital.Pages
             try
             {
                 var doctortype = cmbDoctorTypes.SelectedItem as DoctorType;
+
                 var user = new User()
                 {
                     Login = txtLogin.Text,
                     Password = txtPassword.Password
                 };
 
-                
+                var o = db.Users.FirstOrDefault(x => x.Login == user.Login);
 
+                if (o != null)
+                {
+                    MessageBox.Show("Логин занят");
+                    return;
+                }
 
                 var doctor = new Doctor
                 {

@@ -93,12 +93,9 @@ namespace Hospital.Pages
         {
             InitializeComponent();
 
-
             db = DBConnection.getConnection();
 
             _patient = PatientMainWindow.Patient;
-
-            
 
             dtp.DisplayDateStart = DateTime.Now;
             cmbSchedule.ItemsSource = schedule;
@@ -109,8 +106,6 @@ namespace Hospital.Pages
                 .Include(x => x.Patient)
                 .Where(x => x.Patient.Id == _patient.Id)
                 .ToList());
-
-
 
             dtg.ItemsSource = Records;
             dtg.IsReadOnly = true;
@@ -211,21 +206,28 @@ namespace Hospital.Pages
             Records = new(db.Records
                 .Include(x => x.Doctor)
                 .Include(x => x.Patient)
-            .Where(x => x.Doctor.Name.Contains(search))
+            .Where(x => x.Doctor.Name.Contains(search) && x.Patient.Id == _patient.Id)
             .ToList());
             dtg.ItemsSource = Records;
         }
 
         private void ButtonClickCancel(object sender, RoutedEventArgs e)
         {
-            var obj = Records[dtg.SelectedIndex];
-            if(obj != null)
+            try
             {
-                Records.Remove(obj);
-                obj.Status = RecordStatus.CANCELED;
-                db.Records.Update(obj);
-                Records.Add(obj);
-                db.SaveChanges();
+                var obj = Records[dtg.SelectedIndex];
+                if (obj != null)
+                {
+                    Records.Remove(obj);
+                    obj.Status = RecordStatus.CANCELED;
+                    db.Records.Update(obj);
+                    Records.Add(obj);
+                    db.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+
             }
         }
     }

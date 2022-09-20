@@ -57,3 +57,9 @@ C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\Drug
 C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\MedicalServicePage.baml
 C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\RecordPage.g.cs
 C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\RecordPage.baml
+C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\PatientHomePage.g.cs
+C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\PatientHomePage.baml
+C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\DoctorHomePage.g.cs
+C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\DoctorHomePage.baml
+C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\DoctorRecordPage.g.cs
+C:\Users\dana\source\repos\Hospital\Hospital\obj\Debug\net6.0-windows\Pages\DoctorRecordPage.baml

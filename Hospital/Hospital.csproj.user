@@ -13,7 +13,13 @@
     <Compile Update="DoctorMainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\DoctorHomePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\DoctorPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\DoctorRecordPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\DoctorTypePage.xaml.cs">
@@ -26,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\MedicalServicePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PatientHomePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\RecordPage.xaml.cs">
@@ -48,7 +57,13 @@
     <Page Update="DoctorMainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Pages\DoctorHomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Pages\DoctorPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\DoctorRecordPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\DoctorTypePage.xaml">
@@ -61,6 +76,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\MedicalServicePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PatientHomePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\RecordPage.xaml">

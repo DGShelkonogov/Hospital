@@ -33,7 +33,6 @@
             materialDesign:HintAssist.Hint="Логин"
             Margin="50,5,50,5"/>
 
-
         <PasswordBox 
             Grid.Row="2"
             x:Name="txtPassword"
@@ -52,7 +51,5 @@
             Content="Зарегестрироваться"
             Margin="50,5,50,5"
             Click="ButtonClickRegister" Cursor="Hand"/>
-
-
     </Grid>
 </Page>

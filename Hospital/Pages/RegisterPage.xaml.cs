@@ -55,6 +55,14 @@ namespace Hospital.Pages
                             Login = txtLogin.Text,
                         };
 
+                        var o = db.Users.FirstOrDefault(x => x.Login == user.Login);
+
+                        if(o != null)
+                        {
+                            MessageBox.Show("Логин занят");
+                            return;
+                        }
+
                         var patient = new Patient
                         {
                             LastName = txtLastName.Text,
@@ -74,7 +82,7 @@ namespace Hospital.Pages
 
                             var window = new PatientMainWindow(patient);
                             window.Show();
-                            var win = (StartWindow)Window.GetWindow(this);
+                            var win = Window.GetWindow(this);
                             win.Close();
                         }
                     });

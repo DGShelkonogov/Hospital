@@ -56,7 +56,7 @@ namespace Hospital.Pages
 
         public void Login(User user)
         {
-            var win = (StartWindow)Window.GetWindow(this);
+            var win = Window.GetWindow(this);
          
             if (user != null)
             {
@@ -76,9 +76,10 @@ namespace Hospital.Pages
 
                 if (doctor != null)
                 {
-                    var window = new DoctorMainWindow();
+                    var window = new DoctorMainWindow(doctor);
                     window.Show();
                     win.Close();
+                    DataStorage.saveUser(user);
                     return;
                 }
 
@@ -87,6 +88,7 @@ namespace Hospital.Pages
                     var window = new PatientMainWindow(patient);
                     window.Show();
                     win.Close();
+                    DataStorage.saveUser(user);
                     return;
                 }
                 MessageBox.Show("Неправильные логин или пароль");
