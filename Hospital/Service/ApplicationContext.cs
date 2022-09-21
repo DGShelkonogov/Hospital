@@ -30,7 +30,7 @@ namespace Hospital.Service
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=Hospital;Username=postgres;Password=333");
+            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=Hospital;Username=postgres;Password=123");
         }
 
         public static bool validData(Object args)
