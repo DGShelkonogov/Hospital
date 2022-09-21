@@ -29,14 +29,12 @@
         <TextBox 
             Grid.Row="1"
             x:Name="txtLogin"
-            Text="admin"
             materialDesign:HintAssist.Hint="Логин"
             Margin="50,5,50,5"/>
 
         <PasswordBox 
             Grid.Row="2"
             x:Name="txtPassword"
-            Password="admin"
             materialDesign:HintAssist.Hint="Пароль"
             Margin="50,5,50,5"/>
 

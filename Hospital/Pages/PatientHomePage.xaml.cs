@@ -44,7 +44,6 @@ namespace Hospital.Pages
             {
                 MessageBox.Show(ex.Message);
             }
-            
         }
 
         private void ButtonClickEdit(object sender, RoutedEventArgs e)

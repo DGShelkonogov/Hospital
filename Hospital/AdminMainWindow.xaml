@@ -20,6 +20,11 @@
             <TabItem Header="Услуги">
                 <Frame Source="Pages/MedicalServicePage.xaml"/>
             </TabItem>
+            <TabItem Header="Выйти" MouseUp="TabItem_MouseUp">
+                <Grid>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="32" Text="Вкладка для выхода из аккаунта админа"/>
+                </Grid>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>

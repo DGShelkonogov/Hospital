@@ -23,5 +23,20 @@ namespace Hospital
         {
             InitializeComponent();
         }
+
+        private void TabItem_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                var startWindow = new StartWindow();
+                startWindow.Show();
+                var window = Window.GetWindow(this);
+                window.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
